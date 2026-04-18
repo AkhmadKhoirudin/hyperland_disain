@@ -1,0 +1,34 @@
+# Desktop Environment & UI
+hyprland
+waybar
+wofi
+kitty
+dunst
+swaync
+wlogout
+fastfetch
+nwg-look
+nwg-displays
+
+# Utilities
+btop
+micro
+thunar
+pavucontrol
+brightnessctl
+networkmanager
+bluez
+bluez-utils
+
+# Graphics & Drivers (Standard)
+mesa
+vulkan-intel
+intel-media-driver
+nvidia-utils
+vulkan-radeon
+
+# Portal & Integration
+xdg-desktop-portal-hyprland
+qt5-wayland
+qt6-wayland
+polkit-gnome
