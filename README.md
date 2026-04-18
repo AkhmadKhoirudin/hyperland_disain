@@ -17,7 +17,7 @@ Selamat datang di repository **hyperland_disain**! Ini adalah kumpulan konfigura
 > [!TIP]
 > **Tambahkan Gambar Di Sini:** Anda bisa mengambil screenshot layar Anda (tekan `PrintScreen` atau gunakan `grimblast`), upload ke GitHub, lalu ganti link di bawah ini.
 
-![Desktop Screenshot](https://raw.githubusercontent.com/AkhmadKhoirudin/hyperland_disain/main/hypr/wallpapers/aurora_glass.png)
+![Desktop Screenshot](https://raw.githubusercontent.com/AkhmadKhoirudin/hyperland_disain/main/screenshot.png)
 
 ---
 

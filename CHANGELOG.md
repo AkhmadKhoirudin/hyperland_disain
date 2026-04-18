@@ -11,3 +11,4 @@ Semua perubahan besar dan perbaikan bug akan dicatat di sini.
 
 ---
 *Log ini diperbarui secara otomatis setiap kali ada perubahan signifikan.*
+- **Screenshot Update:** Menambahkan gambar tampilan desktop asli ke README.
