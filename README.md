@@ -8,6 +8,11 @@ Selamat datang di repository **hyperland_disain**! Ini adalah kumpulan konfigura
 
 ---
 
+## 📢 Update Terakhir
+- **[18 April 2026]** : Perbaikan tombol Shutdown (Power Menu) dan pembersihan file backup.
+
+---
+
 ## 📸 Screenshot Layar
 > [!TIP]
 > **Tambahkan Gambar Di Sini:** Anda bisa mengambil screenshot layar Anda (tekan `PrintScreen` atau gunakan `grimblast`), upload ke GitHub, lalu ganti link di bawah ini.
