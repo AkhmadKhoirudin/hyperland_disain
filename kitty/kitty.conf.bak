@@ -1,0 +1,74 @@
+# Modern Island Kitty Theme (Catppuccin Mocha)
+
+font_family      JetBrainsMono Nerd Font
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+font_size 12.0
+
+window_padding_width 15
+background_opacity 0.85
+cursor_shape block
+cursor_blink_interval 0.5
+cursor_stop_blinking_after 15.0
+
+# Colors - Catppuccin Mocha
+foreground              #CDD6F4
+background              #1E1E2E
+selection_foreground    #1E1E2E
+selection_background    #CBA6F7
+
+# Cursor
+cursor                  #CBA6F7
+cursor_text_color       #1E1E2E
+
+# URL
+url_color               #F5E0DC
+url_style               curly
+
+# Borders
+active_border_color     #CBA6F7
+inactive_border_color   #6C7086
+bell_border_color       #F9E2AF
+
+# Tabs
+tab_bar_style           powerline
+tab_powerline_style     slanted
+active_tab_foreground   #11111B
+active_tab_background   #CBA6F7
+inactive_tab_foreground #CDD6F4
+inactive_tab_background #181825
+tab_bar_background      #11111B
+
+# Color Palette
+# Black
+color0 #45475A
+color8 #585B70
+# Red
+color1 #F38BA8
+color9 #F38BA8
+# Green
+color2 #A6E3A1
+color10 #A6E3A1
+# Yellow
+color3 #F9E2AF
+color11 #F9E2AF
+# Blue
+color4 #89B4FA
+color12 #89B4FA
+# Magenta
+color5 #F5C2E7
+color13 #F5C2E7
+# Cyan
+color6 #94E2D5
+color14 #94E2D5
+# White
+color7 #BAC2DE
+color15 #A6ADC8
+
+confirm_os_window_close 0
+enable_audio_bell no
+
+# === FORCE TAB BAR (FINAL OVERRIDE) ===
+tab_bar_style powerline
+tab_bar_min_tabs 1

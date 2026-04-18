@@ -1,0 +1,13 @@
+{
+    "colorscheme": "catppuccin-mocha",
+    "tabsize": 4,
+    "autoindent": true,
+    "mkparents": true,
+    "softwrap": true,
+    "statusformatl": "$(filename) $(modified)($(line),$(col)) $(opt:filetype)",
+    "statusformatr": "$(bind:ToggleKeyMenu):Help $(bind:Quit):Quit",
+    "colorcolumn": 80,
+    "saveundo": true,
+    "scrollbar": true,
+    "diffgutter": true
+}
