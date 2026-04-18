@@ -12,26 +12,23 @@ fi
 
 touch "$LOCK_FILE"
 
-# Jalankan wofi - Versi Stabil
-# Menu ini akan terbuka sampai Anda memilih sesuatu atau menekan Esc
+# Jalankan wofi - VERSI STABIL (Foreground)
+# Menampilkan popup secara langsung dan menunggu input
 printf "$options" | wofi --dmenu --width 150 --height 260 --lines 4 --location top_right --xoffset -15 --yoffset 10 --style "$STYLE" --hide-scroll --no-actions --hide-search --cache-file /dev/null --prompt "Power Menu" > "$TMP_FILE"
 
-# Tunggu proses selesai
+# Tunggu wofi selesai, lalu hapus lock
 rm -f "$LOCK_FILE"
 
-# Ambil pilihan user
-if [ -f "$TMP_FILE" ]; then
+# Jalankan aksi berdasarkan pilihan
+if [ -s "$TMP_FILE" ]; then
     chosen=$(cat "$TMP_FILE")
     rm -f "$TMP_FILE"
+    case "$chosen" in
+        *"Lock"*) hyprlock ;;
+        *"Logout"*) hyprctl dispatch exit ;;
+        *"Reboot"*) systemctl reboot ;;
+        *"Shutdown"*) systemctl poweroff ;;
+    esac
+else
+    rm -f "$TMP_FILE"
 fi
-
-case "$chosen" in
-    *"Lock"*)
-        hyprlock ;;
-    *"Logout"*)
-        hyprctl dispatch exit ;;
-    *"Reboot"*)
-        systemctl reboot ;;
-    *"Shutdown"*)
-        systemctl poweroff ;;
-esac
